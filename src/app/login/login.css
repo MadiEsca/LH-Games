@@ -1,0 +1,25 @@
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Define a posição do nosso formulário*/
+main{
+    display: flex; /*Diz que todos os elementos dentro da main se comportarão de forma flexível*/
+    justify-content: center; /*Centralição horizontal dos itens*/
+    align-items: center; /*Centralização vertical dos itens*/
+    min-height: 700px; /*Definindo qual a altura mínima da caixa de login*/
+}
+
+
+#section-login{
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.title{
+    font-weight: 700;
+}
